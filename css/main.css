@@ -1,0 +1,1140 @@
+/* ==========================================================================
+    Name:PSD TO Html Templete
+    Author:Tahmina Akter
+   Author URL:tahmina.tani19@gmail.com
+    Version:1.0
+   ========================================================================== */
+
+
+/*=============================================================================
+1:basic CSS Section
+2:header CSS Section
+3:slider CSS Section
+4:work section CSS
+5:realization section CSS
+6:multipurpose section CSS
+7:project section CSS
+8:vedio section CSS start 
+9:mobile section CSS
+10:count section CSS 
+11:recent post section CSS
+12:advertise  section CSS
+13:subfooter section CSS
+14:footer CSS   start
+15:scrollling section CSS
+==============================================================================*/
+
+
+/*==============1:Basic CSS Section===================*/
+
+h1,
+h1,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #555555;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/*==============basic CSS end===================*/
+
+
+/*==============2:header section CSS start===================*/
+
+#header-section {
+    background: url(../img/header-bg.png);
+}
+
+#header-section .logo {
+    margin: 20px 0;
+}
+a, a:active, a:focus {
+outline: none;
+}
+
+#header-section .menu {
+    margin: 3% 0;
+}
+
+#header-section .menu ul {
+    margin-left: 15%;
+}
+
+#header-section .menu ul li {
+    display: inline-block;
+}
+
+#header-section .menu ul li a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#header-section .menu ul li a:hover {
+    color: #c7b299;
+    transition: .5s;
+}
+
+#header-section .header-icon {
+    
+    margin: 10% 0;
+	position:relative;
+}
+
+#header-section .header-icon ul li  {
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 10px;
+
+}
+#header-section .header-icon ul li  a
+{
+color: #ffffff;	
+}
+
+#header-section .header-icon .child {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	position: absolute;
+	right: -85px;
+	opacity: 0;
+	
+	
+	transition: .5s;
+	top: 48px;
+}
+
+#header-section .header-icon .child form input {
+    float: left;
+    display: inline;
+    width: 250px;
+    margin: 2px;
+    padding: 10px 5px;
+    border: 1px solid#16860e;
+    margin-top: -8px;
+}
+
+#header-section .header-icon .child button {
+	border-radius: 0px;
+	display: inline-block;
+	
+	background-color: #16860e;
+	color: #fff;
+	padding: 9px 14px;
+	position: relative;
+	top: -48px;
+	right: -204px;
+	border: 1px solid #16860e;
+}
+#header-section .parent:hover .child{
+    opacity: 1;
+    margin-top: 0px;
+}
+
+/*==============header section CSS end===================*/
+
+
+/*==============3:slider section CSS star===================*/
+
+.slider-item {
+    margin: 15% 0;
+}
+
+.slider-con h2 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+}
+
+.slider-con h1 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.slider-con p {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px 0 5% 23%;
+    width: 52%;
+}
+
+.slider-con a {
+    background-color: #998675;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 17px 30px;
+    text-transform: uppercase;
+    border-radius: 4%;
+    list-style: none;
+    text-decoration: none;
+}
+
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-prev {
+    -moz-user-select: none;
+    color: #83827f;
+    cursor: pointer;
+    right: 91%;
+    position: absolute;
+    top: 102px;
+    font-size: 62px;
+    line-height: 20px
+}
+
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next {
+    -moz-user-select: none;
+    color: #83827f;
+    cursor: pointer;
+    left: 88%;
+    position: absolute;
+    top: 102px;
+    font-size: 62px;
+    line-height: 20px
+}
+
+
+/*==============slider section CSS end===================*/
+
+
+/*==============4:work section CSS start===================*/
+
+.work-section {
+    margin: 25% 0;
+}
+
+.work-section i {
+    font-size: 36px;
+}
+
+.work-section i:hover {
+    color: #cebca7;
+    transition: 0.5s;
+}
+
+.work-section h3 {
+    color: #606060;
+    font-size: 22px;
+    font-weight: 600;
+    font-weight: bolder;
+}
+
+.work-section h3:hover {
+    color: #cebca7;
+    transition: 0.5s;
+}
+
+.work-section p {
+    color: #8c8c8c;
+    position: relative;
+}
+
+.work-section p:after {
+    background-color: #f1eee9;
+    color: #eb503c;
+    content: "";
+    height: 3px;
+    left: 91px;
+    position: absolute;
+    top: 110px;
+    width: 75px;
+}
+
+.work-section p:hover:after {
+    background-color: #cebca7;
+    transition: 0.5s;
+}
+
+
+/*==============work section CSS end===================*/
+
+
+/*==============5:realization section CSS start===================*/
+
+#realization {
+    background-color: #fbfaf8;
+}
+
+.header-section h3 {
+    color: #555555;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 8% 0 15px;
+}
+
+.header-section p {
+    color: #8c8c8c;
+    margin-left: 10%;
+    width: 80%;
+}
+
+
+/*==============realization section CSS end===================*/
+
+
+/*==============6:multipurpose section CSS start===================*/
+
+#multipurpose {
+    background-color: #231c1a;
+}
+
+#multipurpose .multi-left {
+    margin: 5% 0 5% 13%;
+}
+
+#multipurpose .multi-left h4 {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#multipurpose .multi-left h4 span {
+    color: #cebca7;
+}
+
+#multipurpose .multi-left p {
+    font-size: 18px;
+    color: #615855;
+}
+
+#multipurpose .multi-right {
+    margin: 10% 0 10% 23%;
+}
+
+#multipurpose .multi-right a {
+    background-color: #998675;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 17px 30px;
+    text-transform: uppercase;
+    border-radius: 4%;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/*==============multipurpose section CSS end===================*/
+
+
+/*==============7:project section CSS start===================*/
+.filter-btn a {
+	background-color: white;
+	color: #8c8c8c;
+	font-size: 14px;
+	line-height: 21px;
+	border: 1px solid#c9c9c9;
+	margin: 10px 6px 30px;
+	display: inline-block;
+	padding: 5px 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.filter-btn a:hover
+{
+    background-color: #998675;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.item {
+ margin-bottom: 20px;
+}
+.active-item  .active
+
+
+.item-box {
+    position: relative;
+}
+.item-icon .icon1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 72%;
+	width: 100%;
+	 background-color: rgba(88, 88, 88,.8);
+	transition: 0.5s;
+	opacity: 0;
+}
+.item-icon .icon1 .search-icon
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    text-decoration: inherit;
+    top: 0;
+
+    padding-left: 46%;
+    padding-top: 35%;
+   
+}
+.item-icon .icon1 .paperclip-icon
+{
+    color: #c6b198;
+     font-size: 30px;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    text-decoration: inherit;
+    top: 0;
+
+    padding-left: 35%;
+    padding-top: 35%;
+    
+}
+.item-box:hover .item-icon .icon1 {
+    opacity: 0.9;
+   
+}
+
+/*
+
+.item-box:after {
+      background-color:#585858;
+    color: #ffffff;
+    content: "";
+    font-family: FontAwesome;
+    font-size: 30px;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    text-decoration: inherit;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    padding-left: 42%;
+    padding-top: 35%;
+}
+
+.item-box:hover:after {
+    opacity: 0.8;
+   
+}
+
+.item-box:before {
+    background-color: rgba(88, 88, 88,.9);
+    color: #998675;
+    content: "\f0c6";
+    font-family: FontAwesome;
+    font-size: 30px;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    text-decoration: inherit;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    padding-left: 30%;
+    padding-top: 35%;
+}
+
+.item-box:hover:before {
+    opacity:0.8;
+    
+}
+*/
+
+.item:hover .item-con {
+    background: #333;
+
+        
+}
+
+
+
+
+.item-con {
+    background-color: #fbfaf8;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+.item-con h3 {
+    color: #c7b299;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    margin: 21px 0 8px 30px;
+    
+}
+.item:hover .item-con h3 {
+   color:#ffffff;
+    z-index: .9999;
+position: relative;
+        
+}
+
+.item-con p {
+    color: #d1d1d1;
+    display: inline-block;
+    line-height: 20px;
+    margin-bottom: 18px;
+    margin-left: 32px;
+}
+
+.item:hover .item-con p {
+   color:#998675;
+    z-index: .9999;
+position: relative;
+        
+}
+.main-item .button-load a {
+	background-color: #998675;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 23px;
+	padding: 12px 30px;
+	text-transform: uppercase;
+	border-radius: 4%;
+	list-style: none;
+	text-decoration: none;
+	margin: 10px 0 6% 43%;
+}
+/*==============project section CSS end===================*/
+
+/*==============8:vedio section CSS start===================*/
+#vedio-section
+{
+    background-image: url(../img/vedio-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    padding: 10% 0;
+    margin-bottom: 5%;
+}
+.vedio-con i {
+	font-size: 26px;
+	text-align: center;
+	color: #e0e1e2;
+	line-height: 45px;
+	text-align: center;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	margin: 18px 0;
+	border: 1px solid#e0e1e2;
+	border-radius: 50%;
+	font-weight: bold;
+	padding-left: 2px;
+	padding-top: 1px;
+}
+.vedio-con h3
+{
+     color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+
+    
+}
+.vedio-con p
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 28px;
+}
+.vedio-con span
+{
+    color:#998675;
+    font-weight: bold;
+}
+/*==============vedio section CSS end===================*/
+
+/*==============9:mobile section CSS start===================*/
+.mobile-img img
+{
+   margin-left: 12%; 
+}
+.mobile-con
+{
+   margin-top: 25%; 
+}
+.mobile-con h4
+{
+    color: #555555;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    margin-bottom: 5%;
+  
+}
+.mobile-con p
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #8c8c8c;
+    font-size: 16px;
+    line-height: 28px
+}
+.mobile-con-list
+{
+    margin-top: 6%;
+    
+}
+
+.mobile-con-list .icon i
+{
+  background-color: #c7b299;
+border-radius: 50%;
+color: #ffffff;
+float: left;
+font-size: 18px;
+font-weight: bold;
+height: 18px;
+margin:0 20px 0 7%;
+padding: 0 5px 10px 0;
+width: 18px;
+}
+
+.mobile-con-list .paragrap p
+{
+    font-size: 16px;
+    line-height: 20px;
+}
+/*==============mobile section CSS end===================*/
+
+/*==============10:count section CSS starrt===================*/
+#count-section
+{
+    background-color: #281f1b;
+}
+.conut-main
+{
+    margin: 23% 12px 30% 12px;
+}
+
+.conut-main i
+{
+  color: #b39f89;
+font-size: 30px;
+font-weight: bold;
+margin: 5px 0 0 30px;
+display: inline-block;
+}
+
+
+.conut-main h2
+{
+    color: #ffffff;
+margin-left: 12px;
+margin-top: 2px;
+    
+}
+.conut-main p
+{
+    color: #c7b299;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+/*    margin-left: 5%;*/
+    position: relative;
+}
+.conut-main p::after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	width: calc(50%);
+	/* color: #ffffff; */
+	top: 37px;
+	left: 3px;
+	background-color: #ffffff;
+}
+/*==============count section CSS end===================*/
+
+/*==============11:recent post section CSS start===================*/
+.post-des
+{
+    position: relative;
+	margin-top:30px;
+}
+.post-des:hover .post-con
+{
+    background-color: #362f2d;
+   
+}
+
+.post-con
+{
+    border: 1px solid#fbfaf8;
+    border-top: 0;
+    display: inline-block;
+    padding-bottom: 15px;
+   
+}
+.post-con h3
+{
+    color:#555555;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+}
+.post-des:hover .post-con h3
+{
+   color:#c7b299; 
+}
+.post-con p
+{
+   color:#8c8c8c;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5px;
+}
+.post-des:hover .post-con p
+{
+   color:#fff; 
+}
+.post-con span
+{
+    color:#c7b299;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 63%;
+     margin-left: 15px;
+    margin-bottom: 10px;
+}
+.post-con span i
+{
+     color:#c7b299;
+    font-size: 9px;
+    line-height: 18px;
+   margin-left: 3%;
+    
+}
+.post-date
+{
+   position: absolute;
+top: 13px;
+left: 15px;
+   
+    padding: 0 10px;
+    border-radius: 3px;
+}
+
+.post-day
+{
+   background-color: #363636;
+color: #ffffff;
+padding: 1px 0 5px;
+}
+.post-des:hover .post-day
+{
+  background-color:#c7b299;  
+}
+
+.post-day h5
+{
+    color:#ffffff;
+    
+    
+}
+.post-month
+{
+   background-color: #252525;
+color: #ffffff;
+margin-top: -10px;
+padding: 0 10px;
+}
+.post-des:hover .post-month
+{
+  background-color:#a48d72;  
+}
+
+
+.prev-next ul
+{
+    margin: 28px 36%;
+   
+    
+}
+.prev-next ul li
+{
+   float: left;
+    display: inline-block;
+    margin-left: 5%;
+    margin-bottom: 25px;
+    
+}
+.prev-next ul li a i {
+	border: 1px solid #c7b299;
+	border-radius: 50%;
+	color: #c7b299;
+	display: inline-block;
+	font-size: 10px;
+	height: 20px;
+	line-height: 16px;
+	margin: 25px 2px;
+	text-align: center;
+	width: 20px;
+	padding-top: 1px;
+}
+/*==============recent post section CSS end===================*/
+
+/*==============12:advertise  section CSS start===================*/
+#add-section
+{
+    background: url(../img/4img-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.add-img
+{
+ display: inline-block;
+margin: 12% 0;  
+}
+.add-img ul
+{
+  
+}
+.add-img ul li
+{
+  display: inline-block;
+float: left;
+margin-left: 18px;
+}
+/*=============advertise section CSS end===================*/
+
+/*=============13:subfooter section CSS start===================*/
+#sub-foot
+{
+    background-color: #191919;
+    border-top: 1px solid#766d70;
+    border-bottom: 1px solid#766d70;
+}
+.sub-foot-sec1
+{
+    margin: 25% 0;
+   
+}
+.sub-foot-sec1 img
+{
+    height: 32px;
+}
+.sub-foot-sec1 p
+{
+   color: #555555;
+font-family: "Montserrat",sans-serif;
+font-size: 14px;
+line-height: 21px;
+margin: 15px 0;
+}
+.sub-foot-sec1 span
+{
+   color: #fff;
+font-family: "Montserrat",sans-serif;
+font-size: 14px;
+line-height: 20px;
+margin-bottom: 10px;
+}
+.sub-foot-sec1 span i
+{
+     color:#fff;
+    font-size: 9px;
+    line-height: 18px;
+   margin-left: 3%;
+    
+}
+.sub-foot-sec2 
+{
+    margin: 25% 0; 
+    
+}
+.sub-foot-sec2 h3
+{
+    color:#fff;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.sub-foot-sec2 .post1, .sub-foot-sec2 .post2,.sub-foot-sec2 .post3
+{
+    margin: 17px 0;
+}
+.sub-foot-sec2 .post1, .sub-foot-sec2 .post2
+{
+    border-bottom: 1px solid#8e8282;
+    
+}
+.sub-foot-sec2 .post1 span
+{
+    color:#363636;
+    font-family: "Montserrat",sans-serif;
+font-size: 12px;
+line-height: 20px;
+    
+}
+.sub-foot-sec2 .post1 p
+{
+     
+font-family: "Montserrat",sans-serif;
+font-size: 14px;
+line-height: 20px;
+    color:#555555;
+}
+.sub-foot-sec2 .post2 span
+{
+    color:#fff;
+    font-family: "Montserrat",sans-serif;
+font-size: 12px;
+line-height: 20px;
+    
+}
+.sub-foot-sec2 .post2 p
+{
+     color: #c7b299;
+font-family: "Montserrat",sans-serif;
+font-size: 14px;
+line-height: 20px;
+    
+}
+.sub-foot-sec2 .post3 span
+{
+    color:#363636;
+    font-family: "Montserrat",sans-serif;
+font-size: 12px;
+line-height: 20px;
+    
+}
+.sub-foot-sec2 .post3 p
+{
+     
+font-family: "Montserrat",sans-serif;
+font-size: 14px;
+line-height: 20px;
+    color:#555555;
+}
+.sub-foot-sec3 
+{
+    margin: 25% 0; 
+    
+}
+.sub-foot-sec3 h3
+{
+    color:#fff;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.sub-foot-sec3 .post31, .sub-foot-sec3 .post32,.sub-foot-sec3 .post33
+{
+    margin: 10px 0;
+    width:100%;
+}
+.sub-foot-sec3 .post31, .sub-foot-sec3 .post32
+{
+    border-bottom: 1px solid#8e8282;
+    
+}
+
+.sub-foot-sec3 .post31 p
+{
+     
+color: #555555;
+font-family: "Montserrat",sans-serif;
+font-size: 14px;
+line-height: 20px;
+margin-bottom: 0;
+display: inline-block;
+}
+ .sub-foot-sec3 .post31 span
+{
+    color:#363636;
+    font-family: "Montserrat",sans-serif;
+font-size: 12px;
+line-height: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
+
+.sub-foot-sec3 .post32 p
+{
+     color: #555555;
+font-family: "Montserrat",sans-serif;
+font-size: 14px;
+line-height: 20px;
+    margin-bottom: 0;
+    
+}
+.sub-foot-sec3 .post32 span
+{
+    color:#363636;
+    font-family: "Montserrat",sans-serif;
+font-size: 12px;
+line-height: 20px;
+     display: inline-block;
+    margin-bottom: 10px;
+    
+}
+
+.sub-foot-sec3 .post33 p
+{
+     
+font-family: "Montserrat",sans-serif;
+font-size: 14px;
+line-height: 20px;
+    color:#555555;
+    margin-bottom: 0;
+}
+.sub-foot-sec3 .post33 span
+{
+    color:#363636;
+    font-family: "Montserrat",sans-serif;
+font-size: 12px;
+line-height: 5px;
+     display: inline-block;
+    margin-bottom: 10px;
+    
+}
+.sub-foot-sec4 
+{
+    margin: 25% 0; 
+    
+}
+.sub-foot-sec4 h3
+{
+    color:#fff;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.sub-foot-sec4 ul
+{
+    
+}
+.sub-foot-sec4 ul li
+{
+   
+     display: inline-block;
+}
+/*=============subfooter section CSS end===================*/
+
+/*=============14:footer section CSS start===================*/
+#footer
+{
+    background-color: #111111;
+    padding: 16px 0;
+}
+.footer-left
+{
+  margin-left: 16%;
+}
+.footer-left ul
+{
+    
+}
+.footer-left ul li
+{
+   display: inline-block;
+    margin-left: 10px;
+}
+.footer-left ul li span
+{
+    color: #969292;
+}
+.footer-right
+{
+    margin-left: 22%;
+}
+.footer-right p
+{
+  color:#555555;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "Montserrat",sans-serif;
+    
+}
+.footer-right p span
+{
+  color:#969292;
+    
+    
+}
+/*=============footer section CSS end===================*/
+/*=============15:scrollling section CSS end===================*/
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: green url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: 1;
+}
+.no-touch .cd-top:hover {
+  background-color: #1007e0;
+  opacity: 1;
+}
